@@ -2,9 +2,9 @@ def solution(X, Y, D):
     distance = Y - X
 
     if distance % D == 0:
-        return distance/D
+        return int(distance/D)
     else:
-        return distance/D + 1
+        return int(distance/D + 1)
 
 
 def test():
